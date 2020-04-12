@@ -1,0 +1,72 @@
+
+.login__btn1{
+border: none;
+padding: 5px 10px;
+font-size: $small;
+font-family: $Raleway;
+}
+
+@media (max-width: $viewport-xsmall){
+.login__btn1{
+display: none;
+border: none;
+padding: 5px 10px;
+font-family: $Raleway;
+}
+}
+
+.login__btn2{
+border: none;
+padding: 5px 10px;
+background-color: $ball-blue;
+color: $white;
+font-size: $small;
+font-family: $Raleway;
+
+&:hover{
+    background-color: $middle-blue;
+}
+
+&:active {
+    background-color: $silver-chalice;
+    }
+}
+
+
+@media (max-width: $viewport-xsmall){
+.login__btn2{
+display: none;
+border: none;
+padding: 5px 10px;
+background-color: $ball-blue;
+color: $white;
+font-family: $Raleway;
+
+&:hover{
+    background-color: $middle-blue;
+}
+
+&:active {
+    background-color: $silver-chalice;
+    }
+}
+}
+
+
+.btn-ofert1{
+border: none;
+width: 100%;
+height: 9%;
+background-color: $ball-blue;
+color: $white;
+margin-top: 10px;
+}
+
+.btn-ofert2{
+border: none;
+width: 100%;
+height: 9%;
+background-color: $ball-blue;
+color: $white;
+margin-top: 10px;
+}

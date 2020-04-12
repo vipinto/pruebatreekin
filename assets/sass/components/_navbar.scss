@@ -1,0 +1,48 @@
+
+.header__navigation__login{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -43px;
+    left: 121%;
+}
+
+@media (max-width: $viewport-xsmall){
+    .header__navigation__login{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: -31px;
+        left: -2%;
+    }
+}
+
+@media (max-width: $viewport-medium){
+    .header__navigation__login{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: -31px;
+        left: -17%;
+    }
+}
+
+@media (min-width: $viewport-xsmall){
+    .burger{
+    display: block;
+    }
+}
+
+@media (min-width: $viewport-medium){
+    .burger{
+        display: none;
+        }
+}
+
+@media (min-width: $viewport-large){
+    .burger{
+        display: none;
+        }
+}
+
+

@@ -1,0 +1,83 @@
+/*Características*/
+
+@media (max-width: $viewport-xsmall){
+.section{
+padding-top: 15%;
+}
+}
+
+@media (max-width: $viewport-xsmall){
+.characteristics{
+padding-right: 6%;
+padding-top: 17%;
+}
+}
+
+.characteristics{
+padding-top: 6%;
+padding-bottom: 7%;
+}
+
+.section__graphics__svg{
+display: flex;
+justify-content: center;
+padding-left: 15%;
+}
+
+
+@media (max-width: $viewport-medium){
+.section__graphics__svg{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 2%;
+    }
+}
+
+@media (max-width: $viewport-xsmall){
+.section__graphics__svg{
+display: flex;
+justify-content: center;
+padding-top: 20%;
+padding-left: 5%;
+}
+}
+
+
+.section__text{
+width: 63%;
+padding-top: 5%;
+}
+
+@media (max-width: $viewport-medium){
+.section__text{
+    width: 49%;
+    padding-top: 5%;
+    padding-left: 27%;
+    }
+}
+
+@media (max-width: $viewport-xsmall){
+.section__text{
+width: 88%;
+padding-top: 30px;
+padding-left: 10%;
+padding-bottom: 10%;
+}
+}
+
+/*Precios*/
+
+.section__price{
+padding-top: 15%;
+padding-bottom: 5%;
+color: white;
+}
+
+@media (max-width: $viewport-xsmall){
+.section__price{
+padding-top: 35%;
+padding-bottom: 15%;
+color: white;
+}
+}

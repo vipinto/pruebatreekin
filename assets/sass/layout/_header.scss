@@ -1,0 +1,35 @@
+.header__navigation{
+    padding-top: 10%;
+    padding-left: 13%;
+    }
+
+
+@media (max-width: $viewport-xsmall){
+.header__navigation-list{
+    display: inline-flex;
+    position: relative;
+    top: -13px;
+    left: 5%;
+
+    li {
+        padding-right: 10px;
+        font-family: $Raleway;
+        font-size: $small;
+        display: none;
+    }
+    }
+}
+
+.header__navigation-list{
+    display: inline-flex;
+    position: relative;
+    top: -13px;
+    left: 5%;
+
+li {
+    padding-right: 10px;
+    font-family: $Raleway;
+    font-size: $small;
+}
+}
+

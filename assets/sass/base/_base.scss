@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*Efectos*/
+.section__graphics__svg{
+    animation-name: section__graphics__svg;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/*Keyframes*/
+
+@keyframes section__graphics__svg{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
