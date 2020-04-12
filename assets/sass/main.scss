@@ -1,21 +1,16 @@
-@import
-  'abstracts/variables',
-  'abstracts/mixin';
+@import 'abstracts/variables';
+@import 'abstracts/mixin';
 
+@import 'base/base';
+@import 'base/reset';
+@import 'base/grid';
+@import 'base/typography';
+ 
+@import 'layout/header';
+@import 'layout/section';
+@import 'layout/article';
+@import 'layout/footer';
 
-@import
-  'base/base',
-  'base/reset',
-  'base/grid',
-  'base/typography';
-
-  @import
-  'layout/header',
-  'layout/section',
-  'layout/article',
-  'layout/footer';
-
-  @import
-  'components/navbar',
-  'components/buttons',
-  'components/input'; 
+@import 'components/navbar';
+@import 'components/buttons';
+@import 'components/input'; 

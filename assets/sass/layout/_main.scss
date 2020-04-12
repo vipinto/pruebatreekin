@@ -22,7 +22,7 @@
     
     
     .main__fondo{
-    background-image: url('../img/bg-hero.svg');
+    background-image: url("../img/bg-hero.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 130vh;
@@ -31,7 +31,7 @@
     
     @media (max-width: $viewport-medium){
     .main__fondo{
-        background-image: url('../img/bg-hero.svg');
+        background-image: url("../img/bg-hero.svg");
         background-repeat: no-repeat;
         background-size: 133%;
         height: 70vh;
@@ -41,7 +41,7 @@
     
     @media (max-width: $viewport-xsmall){
     .main__fondo{
-    background-image: url('../img/bg-hero.svg');
+    background-image: url("../img/bg-hero.svg");
     background-repeat: no-repeat;
     background-size: 133%;
     height: 92vh;
