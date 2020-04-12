@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+/*Efectos*/
 .section__graphics__svg {
   animation-name: section__graphics__svg;
   animation-duration: 1s;
@@ -11,6 +12,7 @@ body {
   animation-iteration-count: infinite;
 }
 
+/*Keyframes*/
 @keyframes section__graphics__svg {
   0% {
     opacity: 0;
@@ -423,6 +425,52 @@ p {
   font-size: 14px;
 }
 
+.section__about {
+  width: 29%;
+  padding-top: 4%;
+  padding-left: 6%;
+}
+
+@media (max-width: 768px) {
+  .section__about {
+    width: 32%;
+    padding-top: 6%;
+    padding-left: 12%;
+  }
+}
+@media (max-width: 375px) {
+  .section__about {
+    width: 71%;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
+}
+.section__fondo {
+  background-image: url("../img/bg-hero.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 130vh;
+  background-position: right bottom;
+}
+
+@media (max-width: 768px) {
+  .section__fondo {
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: 133%;
+    height: 70vh;
+    background-position: right bottom;
+  }
+}
+@media (max-width: 375px) {
+  .section__fondo {
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: 133%;
+    height: 92vh;
+    background-position: right bottom;
+  }
+}
 /*Características*/
 @media (max-width: 375px) {
   .section {
@@ -483,24 +531,11 @@ p {
   }
 }
 /*Precios*/
-.section__price {
-  padding-top: 15%;
-  padding-bottom: 5%;
-  color: white;
-}
-
-@media (max-width: 375px) {
-  .section__price {
-    padding-top: 35%;
-    padding-bottom: 15%;
-    color: white;
-  }
-}
 .fondo2 {
   background-image: url("../img/bg-price.svg");
   background-repeat: no-repeat;
   background-size: 110%;
-  height: 138vh;
+  height: 130vh;
   background-position: center;
 }
 
@@ -518,6 +553,19 @@ p {
     background-size: 775%;
     height: 210vh;
     background-position: center;
+  }
+}
+.section__price {
+  padding-top: 15%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+@media (max-width: 375px) {
+  .section__price {
+    padding-top: 35%;
+    padding-bottom: 15%;
+    color: white;
   }
 }
 .article__price__one {
